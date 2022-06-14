@@ -69,13 +69,13 @@ btnShow.addEventListener("click", () => {
   const input = document.querySelector("#pw1");
   const input2 = document.querySelector("#pw2");
 
-  if (input.type === "text") {
-    input.type = "password";
-    input2.type = "password";
-    btnShow.innerText = "Show Password";
-  } else if (input.type === "password") {
+  if (input.type === "password") {
     input.type = "text";
     input2.type = "text";
     btnShow.innerText = "Hide Password";
+  } else if (input.type === "text") {
+    input.type = "password";
+    input2.type = "password";
+    btnShow.innerText = "Show Password";
   }
 });
