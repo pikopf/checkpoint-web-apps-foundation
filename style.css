@@ -1,0 +1,26 @@
+body {
+  background: salmon;
+}
+
+@media screen and (min-width: 442px) {
+  main {
+    display: grid;
+    grid-template-columns: 25% 50% 50% 25%;
+    padding: auto;
+  }
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cinzel", serif;
+}
+
+form {
+  margin-left: 1rem;
+}
+
+div {
+  font-size: 1rem;
+}
